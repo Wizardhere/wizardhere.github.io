@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>About</title>
+    <style>
+        body {
+            height: 100%;
+        }
+        
+        h2,
+        h3 {
+            margin: 0;
+        }
+        
+        h3 {
+            margin-bottom: 20px;
+        }
+        
+        .head {
+            color: white;
+        }
+        
+        .logo {
+            width: 7%;
+            height: 7%;
+        }
+        
+        .top {
+            display: flex;
+            background: darkblue;
+        }
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            margin-top: -16px;
+        }
+        
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .subnav {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .subnav .subnavbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover,
+        .subnav:hover .subnavbtn {
+            background-color: red;
+            font-weight: bolder;
+        }
+        
+        .subnav-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: red;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .subnav-content a {
+            float: left;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+            width: 70%;
+        }
+        
+        .subnav:hover .subnav-content {
+            display: block;
+        }
+        
+        .catg {
+            left: 50em;
+            position: absolute;
+        }
+        
+        .footer {
+            margin-top: 15em;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer p {
+            margin: 0;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align:center;
+        }
+
+        p {
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+        <h2 class="head">CSK PROPERTIES</h2>
+
+        <img src="realicon.jpg" alt="Image" class="logo">
+    </div>
+    <h3>Pala Real Estate Group</h3>
+
+
+    <nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <div class="subnav">
+                <a href="./about.html">About</a>
+            </div>
+
+            <div class="subnav">
+                <div class="catg">
+                    <button class="subnavbtn">Categories <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="./villa.html">Villa</a>
+                        <a href="./budfr.html">budget friendly</a>
+                        <a href="./luxh.html">luxury house</a>
+                        <a href="./house.html">House</a>
+                        <a href="./plot.html">Plots</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://wa.me/+919947533281">Contact - <i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+919947533281">Phone - <i class="fa fa-phone"></i></a>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h1 >About CSK Property</h1>
+        <p>
+            CSK Property is a leading real estate company that specializes in providing various assets for individuals looking to buy properties. With years of experience in the industry, we offer a wide range of properties including villas, apartments, houses, and plots. Our mission is to assist our clients in finding their dream properties and making the buying process as seamless as possible.
+        </p>
+        <p>
+            At CSK Property, we understand that buying a property is a significant decision. That's why we have a team of dedicated professionals who work closely with our clients, understanding their requirements, and providing personalized solutions. We believe in building long-term relationships with our clients by offering exceptional customer service and ensuring their satisfaction.
+        </p>
+    </div>
+
+
+
+    <footer class="footer">
+        <p>&copy; 2023 CSK. All rights reserved. | Designed by Naveen V</p>
+    </footer>
+</body>
+
+</html>
