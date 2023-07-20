@@ -423,7 +423,7 @@
         const channelID = "UCtrUzNpWQd63NiU6pnZ4KTQ";
         const apiKey = "AIzaSyB75pCEx_7vknqY5CHZYPtrtp5cwrku6tc";
 
-        fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelID}&part=snippet,id&order=date&maxResults=100`)
+        fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelID}&part=snippet,id&order=date&maxResults=180`)
             .then(response => response.json())
             .then(data => {
                 const videos = data.items.filter(item => item.id.kind === "youtube#video");
